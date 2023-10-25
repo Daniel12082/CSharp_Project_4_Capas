@@ -13,6 +13,6 @@ namespace API.Dtos
         [Required]
         public string Password { get; set; }
         [Required]
-        public int Role { get; set; }
+        public string Role { get; set; }
     }
 }

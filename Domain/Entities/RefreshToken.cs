@@ -11,9 +11,9 @@ namespace Domain.Entities
         public User User { get; set; }
         public string Token { get; set; }
         public DateTime Expires { get; set; }
-        public bool isExperied => DateTime.UtcNow >= Expires;
+        public bool IsExperied => DateTime.UtcNow >= Expires;
         public DateTime Created { get; set; }
         public DateTime? Revoked { get; set; }
-        public bool isActive => Revoked == null && !isExperied;
+        public bool IsActive => Revoked == null && !IsExperied;
     }
 }

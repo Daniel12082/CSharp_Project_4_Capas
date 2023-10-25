@@ -1,13 +1,11 @@
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Security.Cryptography;
-using System.Threading.Tasks;
+using System.Text;
 using API.Dtos;
 using API.Helpers;
 using Domain.Entities;
+using Domain.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -68,7 +66,6 @@ namespace API.Services
         DataUserDto dataUserDto = new DataUserDto();
         var user = await _unitOfWork.Users
                     .GetByUsernameAsync(model.Username);
-
         if (user == null)
         {
             dataUserDto.IsAuthenticated = false;

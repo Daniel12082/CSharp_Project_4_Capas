@@ -7,10 +7,8 @@ namespace API.Helpers;
 
 public class JWT
 {
-    internal double DurationInMinutes;
-
     public string Key { get; set; }
     public string Issuer { get; set; }
     public string Audience { get; set; }
-    public double ExpirationInMinutes { get; set; }
+    public double DurationInMinutes { get; set; }
 }

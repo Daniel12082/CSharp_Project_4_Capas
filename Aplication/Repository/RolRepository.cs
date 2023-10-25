@@ -9,7 +9,7 @@ using Persistence.Data.Configuration;
 
 namespace Aplication.Repository
 {
-    public class RolRepository : GenericRepository<Rol>, IRolRespository
+    public class RolRepository : GenericRepository<Rol>, IRolRepository
     {
         private readonly ShopOnlineContext _context;
 

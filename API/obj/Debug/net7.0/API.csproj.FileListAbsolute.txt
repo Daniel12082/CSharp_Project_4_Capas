@@ -72,3 +72,4 @@ C:\Users\APM02-042\Desktop\4capas\API\obj\Debug\net7.0\refint\API.dll
 C:\Users\APM02-042\Desktop\4capas\API\obj\Debug\net7.0\API.pdb
 C:\Users\APM02-042\Desktop\4capas\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\Users\APM02-042\Desktop\4capas\API\obj\Debug\net7.0\ref\API.dll
+C:\Users\APM02-042\Desktop\4capas\API\bin\Debug\net7.0\AspNetCoreRateLimit.dll
